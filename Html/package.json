@@ -1,0 +1,22 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "Sign-up page to login to the desired website",
+  "main": "index.js",
+  "scripts": {
+    "test": "non"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vivekanand-Kakade/Node-logup-page.git"
+  },
+  "author": "Vivekanand-Kakade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vivekanand-Kakade/Node-logup-page/issues"
+  },
+  "homepage": "https://github.com/Vivekanand-Kakade/Node-logup-page#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

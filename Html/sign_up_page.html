@@ -1,0 +1,66 @@
+<!Doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>SIGN-UP page</title>
+            <link rel="stylesheet" type="text/css" href="../Css/sign_up_page.css">
+            <link rel="stylesheet" type="text/javascript" href="../javascript/sign-up_page.js">
+            <link rel="stylesheet" type="text/javascript" href="../javascript/jqpgm.js">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        </head>
+        <body>
+            <div class="fullpage" id="HomePage">
+                <form action="/index.js" method="get">
+                <div class="pageitems">
+                    <p>Firstname:</p><input type="text" class="inputsection" placeholder="enter your First name" required/>
+                </div>
+                <div class="pageitems">
+                    <p>Lastname:</p><input type="text" class="inputsection" placeholder="enter your Last name" required/>
+                </div>
+                <div class="pageitems">
+                    <p>Location:</p><input type="text" class="inputsection" placeholder="enter your Location" required />
+                </div>
+                <div class="pageitems">
+                    <p>email:</p><input type="email" class="inputsection" placeholder="enter your email" required />
+                </div>
+                <div class="pageitems">
+                    <p>Phone number:</p><input type="tel" class="inputsection" placeholder="enter your contact number" required />
+                </div>
+                <div class="pageitems">
+                    <p>User id:</p><input type="text" class="inputsection" placeholder="This will be your login credentials" required/>
+                </div>
+                <div class="pageitems">
+                    <p>Enter password:</p><input type="password" class="inputsection" id="passkey" placeholder="enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                   title="Must contain at least one number, 
+               one uppercase and lowercase letter, and at least 8 characters" required/>
+                <div id="password-message">
+                    <h3>Password must contain:</h3>
+                    <p class="password-message-item invalid">At least
+                        <b>one lowercase letter</b>
+                    </p>
+                    <p class="password-message-item invalid">At least
+                        <b>one uppercase letter</b>
+                    </p>
+                    <p class="password-message-item invalid">At least
+                        <b>one number</b>
+                    </p>
+                    <p class="password-message-item invalid">Minimum
+                        <b>8 characters</b>
+                    </p>
+                </div>  </div>
+                <div class="pageitems">
+                    <p>confirm password:</p><input type="password" class="inputsection" id="passkey2" placeholder="re-enter the same password to confirm" required/>
+                </div>
+                <span class="error" style="color:red"></span>
+                <span class="success" style="color:Yellow"></span><br />
+                <Div>
+                    <button type="submit" value="Submit" >OK</button>
+                    <button type="reset" value="Reset" >RESET</button>
+                    <button type="cancel" >CANCEL</button>
+                </Div>
+                </form>
+           </div>
+        </body>
+    </html>
